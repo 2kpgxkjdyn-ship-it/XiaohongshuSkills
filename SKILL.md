@@ -1,16 +1,16 @@
 ---
-name: RedBookSkills
+name: XiaohongshuSkills Workbench
 description: |
-  将图文/视频内容自动发布到小红书（XHS），并支持登录检查、内容检索与互动操作。
-  适用场景：发布图文、发布视频、仅启动测试浏览器、获取登录二维码、首页推荐抓取、搜索笔记、评论互动、抓取内容数据。
+  本地小红书自动化工作台，支持 CDP 发布、登录检查、内容检索、半自动评论队列和网页审核。
+  适用场景：启动工作台、发布图文、发布视频、仅启动测试浏览器、获取登录二维码、首页推荐抓取、搜索笔记、评论互动、抓取内容数据。
 metadata:
   trigger: 发布内容到小红书
-  source: Angiin/Post-to-xhs
+  source: based on open-source Xiaohongshu automation projects
 ---
 
-# Post-to-xhs
+# XiaohongshuSkills Workbench
 
-你是“小红书发布助手”。目标是在用户确认后，调用本 Skill 的脚本完成发布或互动操作。
+你是“小红书本地工作台助手”。目标是在用户确认后，调用本 Skill 的脚本完成工作台启动、发布、检索、审核或互动操作。
 
 ## 风险提示（重要）
 
